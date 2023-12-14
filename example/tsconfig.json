@@ -1,0 +1,74 @@
+{
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "compilerOptions": {
+    // Type checking
+    //--------------------------------------------------
+
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    //    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    // Modules
+    //--------------------------------------------------
+
+    "module": "ESNext",
+    "moduleResolution": "node",
+
+    // Emit
+    //--------------------------------------------------
+
+    "declaration": true,
+    "importHelpers": true,
+    "outDir": "./dist/esm",
+
+    // Interop constraints
+    //--------------------------------------------------
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Language and environment
+    //--------------------------------------------------
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "DOM",
+      "ES2017"
+    ],
+    "target": "ES2017",
+
+    // Projects
+    //--------------------------------------------------
+
+    "incremental": true,
+
+    // Output formatting
+    //--------------------------------------------------
+
+    "pretty": true,
+
+    // Completeness
+    //--------------------------------------------------
+
+    "skipLibCheck": true
+  }
+}

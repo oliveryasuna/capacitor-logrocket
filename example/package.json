@@ -1,0 +1,27 @@
+{
+  "name": "@oliveryasuna/capacitor-logrocket-example",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Oliver Yasuna",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "vite build",
+    "start": "vite",
+    "cap-sync": "npm run cap-sync:android && npm run cap-sync:ios",
+    "cap-sync:android": "MODE=dev PLATFORM=android cap sync android",
+    "cap-sync:ios": "MODE=dev PLATFORM=ios cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "5.5.1",
+    "@capacitor/core": "5.5.1",
+    "@capacitor/ios": "5.5.1",
+    "@oliveryasuna/capacitor-logrocket": "file:../",
+    "logrocket": "7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.5.1",
+    "sass": "^1.69.5",
+    "vite": "5.0.7"
+  }
+}

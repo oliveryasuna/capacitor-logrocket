@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "./example/src/**/*.ts",
+    "./example/vite.config.ts",
+    "./src/**/*.ts",
+    "./rollup.config.js"
+  ]
+}

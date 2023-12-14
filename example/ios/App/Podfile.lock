@@ -1,0 +1,35 @@
+PODS:
+  - Capacitor (5.5.1):
+    - CapacitorCordova
+  - CapacitorCordova (5.5.1)
+  - LogRocket (1.26.7)
+  - OliveryasunaCapacitorLogrocket (1.0.0):
+    - Capacitor
+    - LogRocket (= 1.26.7)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - OliveryasunaCapacitorLogrocket (from `../../..`)
+
+SPEC REPOS:
+  trunk:
+    - LogRocket
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  OliveryasunaCapacitorLogrocket:
+    :path: "../../.."
+
+SPEC CHECKSUMS:
+  Capacitor: 9da0a2415e3b6098511f8b5ffdb578d91ee79f8f
+  CapacitorCordova: e128cc7688c070ca0bfa439898a5f609da8dbcfe
+  LogRocket: 7021444e490717963b424c8bff8ce76b4972127d
+  OliveryasunaCapacitorLogrocket: 667d86b87245b31ce680aa9d7204f7a6909b98d9
+
+PODFILE CHECKSUM: de461f0b4f74324ac9506205167074991dd67817
+
+COCOAPODS: 1.12.1
