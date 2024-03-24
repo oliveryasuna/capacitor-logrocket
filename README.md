@@ -30,9 +30,3 @@ Before you launch the example app, run the development server with
 `pnpm run start` from `/example`.
 
 You can change the LogRocket app ID in `/example/src/js/script.ts`.
-
-### Notes
-
-I am best reached by phone at 508-282-1217.
-My email is oliveryasuna.main@gmail.com.
-I am also in the Boston area.
