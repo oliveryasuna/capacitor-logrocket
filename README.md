@@ -1,3 +1,5 @@
+NOTE: This is experimental and does not work. It exists to demonstrate to the LogRocket team that it does not integrate well with Capacitor.
+
 # @oliveryasuna/capacitor-logrocket
 
 Capacitor plugin to integrate LogRocket.
